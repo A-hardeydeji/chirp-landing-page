@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	@media screen and (max-width: 76em) {
+		font-size: 58%;
+	}
+	@media screen and (max-width: 31.25em) {
+		font-size: 40%;
+	}
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+$primary-color: rgb(0, 147, 249);
+$secondary-color: rgb(89, 89, 89);
